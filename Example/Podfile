@@ -1,0 +1,16 @@
+# 源文件引用(默认)
+source 'https://gitee.com/kyd_iOSGroup/kyd_specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+#use_frameworks!
+
+platform :ios, '8.0'
+
+target 'KYPopMenuView_Example' do
+  pod 'KYPopMenuView', :path => '../'
+
+  target 'KYPopMenuView_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
