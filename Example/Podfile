@@ -10,7 +10,6 @@ target 'KYPopMenuView_Example' do
 
   target 'KYPopMenuView_Tests' do
     inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
+    
   end
 end

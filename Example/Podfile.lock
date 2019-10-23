@@ -1,0 +1,16 @@
+PODS:
+  - KYPopMenuView (0.1.0)
+
+DEPENDENCIES:
+  - KYPopMenuView (from `../`)
+
+EXTERNAL SOURCES:
+  KYPopMenuView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KYPopMenuView: 12d5e5c30f311a244cc81f3f145a0138e00159ea
+
+PODFILE CHECKSUM: 0e304f4101ec9b77459299dea9f2497b7a99cd3f
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,6 @@
+module Pods_KYPopMenuView_Tests {
+  umbrella header "Pods-KYPopMenuView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

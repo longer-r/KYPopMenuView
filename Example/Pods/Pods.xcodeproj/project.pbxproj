@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BDEF751A1124F20664DCD5D59A886B5 /* KYPopMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 530B86070DEC531FD18D06D07BEDFDEE /* KYPopMenuView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		62ECEA488F94F42E08C5FAACB0D7A3BE /* Pods-KYPopMenuView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCD395F981B274131597054A0426E1D /* Pods-KYPopMenuView_Tests-dummy.m */; };
+		6C85D5009309E8DC8C6CAAAD786366E9 /* Pods-KYPopMenuView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 550F5B949EA06612D0A6D48513AFB384 /* Pods-KYPopMenuView_Example-dummy.m */; };
+		97CF2443B40B4B783D0E40C4A6EF1167 /* KYPopMenuView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41721920001E0B73537DFEB410253ECB /* KYPopMenuView-dummy.m */; };
+		FB8150EBF7758DD02A8E2CBB4AAFBFDC /* KYPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA533BBAC7CB6D6535AD53C3137E118D /* KYPopMenuView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		180A7AE76386DA4C8B0F5D727E349569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ECF9D51351CBD3BA90492D6D1EE1743;
+			remoteInfo = KYPopMenuView;
+		};
+		4093A6A191460C8EB2A05D8E4D16F790 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D92492609437FFC418CDFC618095B4B9;
+			remoteInfo = "Pods-KYPopMenuView_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F53889FC3AD5C98700BB3972B62A5CD /* Pods-KYPopMenuView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KYPopMenuView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3D7E736193BBE8AABB537ABDCB4EBCF9 /* Pods-KYPopMenuView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KYPopMenuView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3DD918D740A3FCF8A9BE7F89599431AF /* KYPopMenuView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KYPopMenuView.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		41721920001E0B73537DFEB410253ECB /* KYPopMenuView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KYPopMenuView-dummy.m"; sourceTree = "<group>"; };
+		530B86070DEC531FD18D06D07BEDFDEE /* KYPopMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KYPopMenuView.h; path = KYPopMenuView/Classes/KYPopMenuView.h; sourceTree = "<group>"; };
+		53C4EA3E509330F55768E79D1240DC92 /* Pods-KYPopMenuView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYPopMenuView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		550F5B949EA06612D0A6D48513AFB384 /* Pods-KYPopMenuView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KYPopMenuView_Example-dummy.m"; sourceTree = "<group>"; };
+		58B7D104B91AB74629B06A92B51F06E5 /* Pods-KYPopMenuView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYPopMenuView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6B8BACCCE35B6E6762D56734A9B7D3B2 /* Pods-KYPopMenuView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYPopMenuView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		77D329CA12566AA89DDC679D8524C3D9 /* Pods-KYPopMenuView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYPopMenuView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7F611FC5A269A585317AE026A67464FE /* KYPopMenuView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYPopMenuView-prefix.pch"; sourceTree = "<group>"; };
+		8009E3EE78BB5D616B625B3035FCE28D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9AE6C3B470A65733CF3FA153FDBF86EA /* KYPopMenuView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KYPopMenuView.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A95417B3E1206FD2C0417E509030675C /* libPods-KYPopMenuView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KYPopMenuView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB7F2B391D0F4FA00FDB46F8AFDD21D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BF9035F02EB467E31E41B3934B4E1453 /* Pods-KYPopMenuView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KYPopMenuView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA533BBAC7CB6D6535AD53C3137E118D /* KYPopMenuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KYPopMenuView.m; path = KYPopMenuView/Classes/KYPopMenuView.m; sourceTree = "<group>"; };
+		CFCD395F981B274131597054A0426E1D /* Pods-KYPopMenuView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KYPopMenuView_Tests-dummy.m"; sourceTree = "<group>"; };
+		E9634588166EDFE072DFE966D390E215 /* Pods-KYPopMenuView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KYPopMenuView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F2B68AAA34DAA807537543EE4499BD6D /* libPods-KYPopMenuView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KYPopMenuView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADE47ED43FCF8C2BCD1F3E240F0A2DA /* libKYPopMenuView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKYPopMenuView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C82689F2B60AAD59C0CACF7C7FB614D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FBC25372FCE2A44CE1D6A67499B6D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DC3EEA0C796441AFC150FF36116D19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A10A13C134DBE9D20500CB626575CBC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D06014116FE0A7CD910B11ACAB272BB /* KYPopMenuView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		23398269C77FDA696423BF0F5B24E8D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FADE47ED43FCF8C2BCD1F3E240F0A2DA /* libKYPopMenuView.a */,
+				F2B68AAA34DAA807537543EE4499BD6D /* libPods-KYPopMenuView_Example.a */,
+				A95417B3E1206FD2C0417E509030675C /* libPods-KYPopMenuView_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E444511E7407328D6D1B3B1394D481F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACB6B8FCE31DE7EE2FE98FE9D3F05263 /* Pods-KYPopMenuView_Example */,
+				B243F380D169BBB12E09B4A2DC0E24B0 /* Pods-KYPopMenuView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8621D1D6917E0FC348E98C357533CA1E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3DD918D740A3FCF8A9BE7F89599431AF /* KYPopMenuView.podspec */,
+				8009E3EE78BB5D616B625B3035FCE28D /* LICENSE */,
+				BBB7F2B391D0F4FA00FDB46F8AFDD21D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9D06014116FE0A7CD910B11ACAB272BB /* KYPopMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				530B86070DEC531FD18D06D07BEDFDEE /* KYPopMenuView.h */,
+				CA533BBAC7CB6D6535AD53C3137E118D /* KYPopMenuView.m */,
+				8621D1D6917E0FC348E98C357533CA1E /* Pod */,
+				B86BAF6E16B9632D86F8BCD4D583FDE8 /* Support Files */,
+			);
+			name = KYPopMenuView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		ACB6B8FCE31DE7EE2FE98FE9D3F05263 /* Pods-KYPopMenuView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3D7E736193BBE8AABB537ABDCB4EBCF9 /* Pods-KYPopMenuView_Example-acknowledgements.markdown */,
+				1F53889FC3AD5C98700BB3972B62A5CD /* Pods-KYPopMenuView_Example-acknowledgements.plist */,
+				550F5B949EA06612D0A6D48513AFB384 /* Pods-KYPopMenuView_Example-dummy.m */,
+				58B7D104B91AB74629B06A92B51F06E5 /* Pods-KYPopMenuView_Example.debug.xcconfig */,
+				6B8BACCCE35B6E6762D56734A9B7D3B2 /* Pods-KYPopMenuView_Example.release.xcconfig */,
+			);
+			name = "Pods-KYPopMenuView_Example";
+			path = "Target Support Files/Pods-KYPopMenuView_Example";
+			sourceTree = "<group>";
+		};
+		B243F380D169BBB12E09B4A2DC0E24B0 /* Pods-KYPopMenuView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BF9035F02EB467E31E41B3934B4E1453 /* Pods-KYPopMenuView_Tests-acknowledgements.markdown */,
+				E9634588166EDFE072DFE966D390E215 /* Pods-KYPopMenuView_Tests-acknowledgements.plist */,
+				CFCD395F981B274131597054A0426E1D /* Pods-KYPopMenuView_Tests-dummy.m */,
+				53C4EA3E509330F55768E79D1240DC92 /* Pods-KYPopMenuView_Tests.debug.xcconfig */,
+				77D329CA12566AA89DDC679D8524C3D9 /* Pods-KYPopMenuView_Tests.release.xcconfig */,
+			);
+			name = "Pods-KYPopMenuView_Tests";
+			path = "Target Support Files/Pods-KYPopMenuView_Tests";
+			sourceTree = "<group>";
+		};
+		B86BAF6E16B9632D86F8BCD4D583FDE8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AE6C3B470A65733CF3FA153FDBF86EA /* KYPopMenuView.xcconfig */,
+				41721920001E0B73537DFEB410253ECB /* KYPopMenuView-dummy.m */,
+				7F611FC5A269A585317AE026A67464FE /* KYPopMenuView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KYPopMenuView";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1A10A13C134DBE9D20500CB626575CBC /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				23398269C77FDA696423BF0F5B24E8D6 /* Products */,
+				6E444511E7407328D6D1B3B1394D481F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4CCDC08A8706FFACB7EAF7A983EF0638 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F93C281AC21AD7467543804287A537E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BDEF751A1124F20664DCD5D59A886B5 /* KYPopMenuView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDFF0022F2A9DE24AC03C0BBAED205C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8ECF9D51351CBD3BA90492D6D1EE1743 /* KYPopMenuView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF3319B5B4F64D653FEB5E6DDD6482E3 /* Build configuration list for PBXNativeTarget "KYPopMenuView" */;
+			buildPhases = (
+				4F93C281AC21AD7467543804287A537E /* Headers */,
+				A3F925002A07F4D64AB758BCC21314FA /* Sources */,
+				C3DC3EEA0C796441AFC150FF36116D19 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYPopMenuView;
+			productName = KYPopMenuView;
+			productReference = FADE47ED43FCF8C2BCD1F3E240F0A2DA /* libKYPopMenuView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D92492609437FFC418CDFC618095B4B9 /* Pods-KYPopMenuView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CDDAA852E263DF7DC7A725C9A3D76A6 /* Build configuration list for PBXNativeTarget "Pods-KYPopMenuView_Example" */;
+			buildPhases = (
+				4CCDC08A8706FFACB7EAF7A983EF0638 /* Headers */,
+				01FDCA1A9061E27FDB98D0362E58AD90 /* Sources */,
+				7C82689F2B60AAD59C0CACF7C7FB614D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				506C1317797CE7FAA76550022AD96849 /* PBXTargetDependency */,
+			);
+			name = "Pods-KYPopMenuView_Example";
+			productName = "Pods-KYPopMenuView_Example";
+			productReference = F2B68AAA34DAA807537543EE4499BD6D /* libPods-KYPopMenuView_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F78472B53075339C0B85A1EA7264E0B1 /* Pods-KYPopMenuView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC62781AEA7C989D1DBB5D1C47B2721 /* Build configuration list for PBXNativeTarget "Pods-KYPopMenuView_Tests" */;
+			buildPhases = (
+				DDDFF0022F2A9DE24AC03C0BBAED205C /* Headers */,
+				4DA378196F97D47CD3A7538F23D1DDC0 /* Sources */,
+				A6FBC25372FCE2A44CE1D6A67499B6D5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08176D6448E36357DCB60EFE9D55F83D /* PBXTargetDependency */,
+			);
+			name = "Pods-KYPopMenuView_Tests";
+			productName = "Pods-KYPopMenuView_Tests";
+			productReference = A95417B3E1206FD2C0417E509030675C /* libPods-KYPopMenuView_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 23398269C77FDA696423BF0F5B24E8D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ECF9D51351CBD3BA90492D6D1EE1743 /* KYPopMenuView */,
+				D92492609437FFC418CDFC618095B4B9 /* Pods-KYPopMenuView_Example */,
+				F78472B53075339C0B85A1EA7264E0B1 /* Pods-KYPopMenuView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01FDCA1A9061E27FDB98D0362E58AD90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C85D5009309E8DC8C6CAAAD786366E9 /* Pods-KYPopMenuView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA378196F97D47CD3A7538F23D1DDC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62ECEA488F94F42E08C5FAACB0D7A3BE /* Pods-KYPopMenuView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F925002A07F4D64AB758BCC21314FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CF2443B40B4B783D0E40C4A6EF1167 /* KYPopMenuView-dummy.m in Sources */,
+				FB8150EBF7758DD02A8E2CBB4AAFBFDC /* KYPopMenuView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08176D6448E36357DCB60EFE9D55F83D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KYPopMenuView_Example";
+			target = D92492609437FFC418CDFC618095B4B9 /* Pods-KYPopMenuView_Example */;
+			targetProxy = 4093A6A191460C8EB2A05D8E4D16F790 /* PBXContainerItemProxy */;
+		};
+		506C1317797CE7FAA76550022AD96849 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KYPopMenuView;
+			target = 8ECF9D51351CBD3BA90492D6D1EE1743 /* KYPopMenuView */;
+			targetProxy = 180A7AE76386DA4C8B0F5D727E349569 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		47295FBF02E6E006118AE329510C9071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AE6C3B470A65733CF3FA153FDBF86EA /* KYPopMenuView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KYPopMenuView/KYPopMenuView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = KYPopMenuView;
+				PRODUCT_NAME = KYPopMenuView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		774DF7FF613EE9833BB56BFC6E4F687E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58B7D104B91AB74629B06A92B51F06E5 /* Pods-KYPopMenuView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E464D40794FD12A600D504413D82CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AE6C3B470A65733CF3FA153FDBF86EA /* KYPopMenuView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KYPopMenuView/KYPopMenuView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = KYPopMenuView;
+				PRODUCT_NAME = KYPopMenuView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8D5A6D0F0EFF52C4CE2097235FDEE376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53C4EA3E509330F55768E79D1240DC92 /* Pods-KYPopMenuView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0602706FD2A41D9EDA69F2F31C5D185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B8BACCCE35B6E6762D56734A9B7D3B2 /* Pods-KYPopMenuView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA0D35F39F4EB3D9C15B941AF5199E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D329CA12566AA89DDC679D8524C3D9 /* Pods-KYPopMenuView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CDDAA852E263DF7DC7A725C9A3D76A6 /* Build configuration list for PBXNativeTarget "Pods-KYPopMenuView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774DF7FF613EE9833BB56BFC6E4F687E /* Debug */,
+				C0602706FD2A41D9EDA69F2F31C5D185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CC62781AEA7C989D1DBB5D1C47B2721 /* Build configuration list for PBXNativeTarget "Pods-KYPopMenuView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5A6D0F0EFF52C4CE2097235FDEE376 /* Debug */,
+				FA0D35F39F4EB3D9C15B941AF5199E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF3319B5B4F64D653FEB5E6DDD6482E3 /* Build configuration list for PBXNativeTarget "KYPopMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47295FBF02E6E006118AE329510C9071 /* Debug */,
+				7E464D40794FD12A600D504413D82CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
