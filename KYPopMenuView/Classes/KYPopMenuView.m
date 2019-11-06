@@ -135,8 +135,8 @@ int const kTagKYPopMenuView = 53206363;
     if (_clickedBlock) {
         _clickedBlock(indexPath.row);
     }
-    if (_delegate && [_delegate respondsToSelector:@selector(navigationMenuView:clickedAtIndex:)]) {
-        [_delegate navigationMenuView:self clickedAtIndex:indexPath.row];
+    if (_delegate && [_delegate respondsToSelector:@selector(popMenuView:clickedAtIndex:)]) {
+        [_delegate popMenuView:self clickedAtIndex:indexPath.row];
     }
     [self dismissView];
 }

@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 点击每一栏时通过代理回调
 /// @param menuView menuView
 /// @param index 每一栏的索引,从0开始
-- (void)navigationMenuView:(KYPopMenuView *)menuView clickedAtIndex:(NSInteger)index;
+- (void)popMenuView:(KYPopMenuView *)menuView clickedAtIndex:(NSInteger)index;
 
 @end
 
@@ -71,7 +71,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param shapeOffsetX 三角箭头偏移X,相对于menu的frame
 /// @param imageArray 图片对象
 /// @param titleArray 显示的标题
-- (instancetype)initWithMenuFrame:(CGRect)frame shapeSize:(CGSize)shapeOffsetX shapeOffsetX:(CGFloat)offsetX images:(NSArray <UIImage *> * _Nullable)imageArray titleArray:(NSArray<NSString *> *)titleArray;
+- (instancetype)initWithMenuFrame:(CGRect)frame shapeSize:(CGSize)shapeSize shapeOffsetX:(CGFloat)shapeOffsetX images:(NSArray <UIImage *> * _Nullable)imageArray titleArray:(NSArray<NSString *> *)titleArray;
 
 
 /// 移除对象
