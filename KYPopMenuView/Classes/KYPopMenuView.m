@@ -102,6 +102,14 @@ int const kTagKYPopMenuView = 53206363;
     _tableView.backgroundColor = bgColor;
 }
 
+- (void)updateMenuTitle:(NSArray<NSString *> * )titleArray;
+{
+    CGRect frame = _tableView.frame;
+    frame.size.height = (frame.size.height / (_titleArray.count * 1.0)) * titleArray.count;
+    _tableView.frame = frame;
+    _titleArray = titleArray;
+}
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return _titleArray.count;

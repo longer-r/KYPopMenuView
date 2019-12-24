@@ -81,6 +81,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param superView 父视图
 - (void)showInSuperView:(UIView *)superView;
 
+/// 更新菜单
+- (void)updateMenuTitle:(NSArray<NSString *> * )titleArray;
+
 @end
 
 
