@@ -157,6 +157,9 @@ int const kTagKYPopMenuView = 53206363;
 
 - (void)dismissView
 {
+    if (![self isShowedInSuperview]) {
+        return;
+    }
     [UIView animateWithDuration:.2f animations:^{
         self.tableView.transform = CGAffineTransformMakeScale(0.001, 0.001);
         self.tableView.alpha = 0.0f;
